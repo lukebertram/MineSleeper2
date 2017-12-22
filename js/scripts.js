@@ -247,9 +247,11 @@ var setClickListener = function(tileSpaceElement, boardData){
 
       //ON RIGHT CLICK:
       case 3:
-
-        //toggle flagged class on tile element
-        tileSpaceElement.toggleClass('flagged');
+        //if the tile has not yet been flipped
+        if (!tileSpaceElement.hasClass('clicked')){
+          //toggle flagged class on tile element
+          tileSpaceElement.toggleClass('flagged');
+        }
         break;
 
       default:

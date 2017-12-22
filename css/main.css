@@ -1042,6 +1042,10 @@ button {
       display: flex;
       justify-content: center;
       align-items: center; }
+      .tile-space .tile .tile-back span.tile-value {
+        font-family: helvetica;
+        font-size: 2em;
+        font-weight: bolder; }
     .tile-space .tile .tile-front, .tile-space .tile .tile-back {
       backface-visibility: hidden;
       position: absolute;

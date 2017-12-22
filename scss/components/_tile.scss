@@ -21,6 +21,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        span.tile-value{
+          font-family: helvetica;
+          font-size: 2em;
+          font-weight: bolder;
+        }
       }
       .tile-front, .tile-back{
         backface-visibility: hidden;
